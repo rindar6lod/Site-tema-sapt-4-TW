@@ -1,0 +1,102 @@
+.introducereCls{
+    color: #F27F0C;
+    background-color: #9FE7F5;
+    padding: 160px;
+}
+
+.imgCls{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skillsCls{
+    background-color: lightgray;
+    padding: 100px;
+}
+
+.skillsDiv1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactCls{
+    padding-bottom: 50px;
+    padding-top: 1px ;
+    background-color: rgb(59, 59, 219);
+    text-align: center;
+}
+
+.linksCls{
+    padding-bottom: 20px;
+    padding-top: 20px ;
+    background-color: rgb(1, 1, 88);
+    text-align: center;
+}
+a:link
+{
+    color: white;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+a:visited{
+    color: orange;
+}
+
+.skillsDiv1 img{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.hstyle{
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.hstyle2{
+    font-family: 'Rubik', sans-serif;
+    font-size:30px;
+}
+
+.pstyle{
+    font-family: 'Archivo', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pozaDiv{
+    color: #F7AD19;
+    background-color: #429EBD;
+    padding: 40px;
+}
+
+hr{
+    border: none;
+    border-top: 20px dotted;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    color: lightblue;
+}
+
+button{
+    background-color: #7fffd4;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 100px;
+    font-family: 'Silkscreen', cursive;
+    border: solid 2px black;
+    
+}
+
+button:hover{
+    background-color: #0bb37b;
+    transition:none;
+   
+}
